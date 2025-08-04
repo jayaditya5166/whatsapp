@@ -1,0 +1,42 @@
+{
+  "name": "whatsapp-autoresponder",
+  "version": "1.0.0",
+  "description": "WhatsApp autoresponder with AI-powered lead qualification for IT company",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "autoresponder",
+    "ai",
+    "lead-qualification",
+    "groq"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "googleapis": "^133.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.8.7",
+    "node-cron": "^3.0.3",
+    "openai": "^4.24.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite3": "^5.1.7",
+    "whatsapp-web.js": "^1.31.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
