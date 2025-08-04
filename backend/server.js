@@ -37,6 +37,7 @@ if (process.env.NODE_ENV === 'production') {
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
     ? [
+        "https://fastidious-cranachan-e13daf.netlify.app",
         "https://your-netlify-app.netlify.app",
         "https://your-netlify-app-name.netlify.app"
       ]
@@ -51,6 +52,7 @@ const io = new Server(server, {
   cors: {
     origin: process.env.NODE_ENV === 'production'
       ? [
+          "https://fastidious-cranachan-e13daf.netlify.app",
           "https://your-netlify-app.netlify.app",
           "https://your-netlify-app-name.netlify.app"
         ]
