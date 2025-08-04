@@ -2,7 +2,7 @@
   "name": "whatsapp-autoresponder",
   "version": "1.0.0",
   "description": "WhatsApp autoresponder with AI-powered lead qualification for IT company",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "start:dev": "nodemon server.js"
